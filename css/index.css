@@ -1,0 +1,306 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;	
+	font-family: "微软雅黑";
+}
+.sinput {
+	margin-top: 20px;
+	margin-left: 22px;
+}
+.sinput input {
+	width: 347px;
+	height: 40px;
+}
+
+.sinput a {
+	width: 350px;
+	height: 47px;
+	display: block;
+	text-align: center;
+	line-height: 47px;
+	background-color: #0094ff;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+#con,.dreg {
+	display: none;	
+}
+.dtop{
+	height: 900px;
+}
+.dlogo{
+	float: left;
+	position: absolute;
+	top: 200px;
+	left: 45%;
+}
+.dtext{
+	float: left;
+	position: absolute;
+	top: 400px;
+	left: 30%;
+}
+.dnav{
+	float: right;
+	width: 230px;
+	height: 80px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.dtop{
+	width: 100%;
+	background: url(../img/header_bg.jpg);
+	overflow: hidden;
+}
+.dnav ul li{
+	float: left;
+	width: 100px;
+	height: 60px;
+	border: 1px solid white;
+	margin-left: 10px;
+}
+.dnav ul li a{
+	text-decoration: none;
+	width: 100px;
+	height: 60px;
+	display: block;
+	line-height: 60px;
+	text-align: center;	
+	color: white;
+	font-size: 20px;
+}
+.dnav ul li a:hover{
+	color: black;
+}
+.navlogo{
+	float: left;
+	height: 64px;
+}
+.navbar{
+	float: left;
+	margin-left: 40px;	
+	height: 64px;
+}
+.navbar ul li{
+	float: left;
+	margin-left: 20px;
+}
+.navbar ul li a{
+	height: 64px;
+	line-height: 64px;
+	color: black;
+	text-decoration: none;
+	font-size: 24px;
+	font-family: "宋体";
+}
+.navbar ul li a:hover{
+	color: #ccc;
+}
+.topnav{
+	left: 0;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+	height: 64px;
+}
+.hotpic{	
+	height: 1050px;
+	width: 100%;
+	background-color: black;
+}
+.hottitle{
+	float: left;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+.hottitle strong{
+	color: white;
+	font-size: 32px;
+	font-family: "宋体";
+}
+.hotsearch{
+	position: relative;
+	float: right;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+.hotsearch input{
+	width: 400px;
+	height: 50px;
+	border: 2px solid white;
+	color: white;
+	line-height: 50px;	
+	background-color: black;
+	font-size: 22px;
+}
+.hotsearch a{	
+	position: absolute;
+	display: block;
+	float: right;
+	right: 0px;
+	top:2px;
+}
+#layer-photos-demo{
+	margin-top: 30px;
+	margin-left: 3%;
+	float: left;
+	width: 98%;
+
+}
+#layer-photos-demo img{
+	margin-left: 15px;
+	margin-bottom: 15px;
+	width: 325px;
+	height: 220px;
+}
+.slidepic{
+	width: 94%;
+	height: 430px;
+	margin: 50px auto;
+}
+.slidepic li{
+	float: left;
+}
+.pic1{
+	background-image: url(../img/1.jpg);
+}
+.pic2{
+	background-image: url(../img/2.jpg);
+}
+.pic3{
+	background-image: url(../img/3.jpg);
+}
+.pic4{
+	background-image: url(../img/4.jpg);
+	width: 789px;
+}
+.dtxt{
+	width: 100px;
+    height: 429px;
+    background-color: #000;
+    filter: alpha(opacity=50);
+    background: rgba(0,0,0,0.5);
+}
+.dtxt p{
+	float: left;
+    color: #fff;    
+}
+.p1{
+	width: 12px;
+    font-size: 12px;    
+    padding: 25px 25px 0px 20px;
+}
+.p2{
+	width: 14px;
+    font-size: 14px;
+    margin-top: 25px;
+}
+#dmarquee{	
+	margin-top: 30px;	
+	height: 150px;
+	width: 96%;	
+	margin-left: 2%;
+	overflow:hidden;
+	border: 1px solid #ccc;
+}
+#dmarquee ul li{
+	float: left;
+	margin-left: 2%;
+	margin-top: 15px;
+}
+#dmarquee ul li img{
+	width: 200px;
+	height: 120px;
+	display: block;
+}
+.d-pic-wall{	
+	position: relative;
+	height: 400px;
+	background-color: #000;
+}
+.d-wall-title strong{
+	color: white;
+	font-size: 32px;
+	font-family: "宋体";
+	margin-left: 50px;
+	margin-top: 30px;
+}
+.pw-1{		
+	position: absolute;	
+	bottom: 120px;
+	left: 5%;
+	transform: rotate(20deg);
+}
+.pw-2{		
+	position: absolute;	
+	bottom: 30px;
+	left: 8%;
+	transform: rotate(40deg);	
+}
+.pw-3{		
+	position: absolute;	
+	bottom: 10px;
+	left: 15%;
+	transform: rotate(-10deg);	
+}
+.pw-4{		
+	position: absolute;	
+	bottom: 30px;
+	left: 23%;
+	transform: rotate(-30deg);	
+}
+.pw-5{		
+	position: absolute;	
+	bottom: 130px;
+	left: 25%;
+	transform: rotate(20deg);	
+}
+.pw-6{		
+	position: absolute;	
+	bottom: 130px;
+	left: 30%;
+	transform: rotate(-45deg);	
+}
+.pw-7{		
+	position: absolute;	
+	bottom: 40px;
+	left: 42%;
+	transform: rotate(45deg);	
+}
+.pw-8{		
+	position: absolute;	
+	bottom: 130px;
+	left: 50%;
+	transform: rotate(-45deg);	
+}
+.pw-9{		
+	position: absolute;	
+	bottom: 100px;
+	left: 55%;
+	transform: rotate(130deg);	
+}
+.pw-10{		
+	position: absolute;	
+	bottom: 30px;
+	left: 60%;
+	transform: rotate(12deg);	
+}
+.pw-11{		
+	position: absolute;	
+	bottom: 80px;
+	left: 70%;
+	transform: rotate(162deg);	
+}
+.pw-1 img,.pw-2 img,.pw-3 img,.pw-4 img,.pw-5 img,.pw-6 img,.pw-7 img,.pw-8 img,.pw-9 img,.pw-10 img,.pw-11 img{
+	border: 3px solid #fff;
+	border-radius: 30px;
+}
+.pw-1:hover,.pw-2:hover,.pw-3:hover,.pw-4:hover,.pw-5:hover,.pw-6:hover,.pw-7:hover,.pw-8:hover,.pw-9:hover,.pw-10:hover,.pw-11:hover{
+	transform:rotate(0deg) scale(1.7);/*顺时针旋转40度，放大1.2倍*/
+	transition: all 1s ease;
+	z-index: 99;
+}
